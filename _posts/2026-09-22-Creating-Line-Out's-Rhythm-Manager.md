@@ -12,7 +12,7 @@ What's more is when I want to make a song that has varying time signature change
 Because some audio output devices have a considerable amount of delay, it was crucial that I implemented a way for players to be able to calibrate the timing of the rhythm. 
 
 Here's a clipping from the Soundtrack class which updates the playback position while taking into account the audio calibration settings:
-```tsql
+```cs
   _curPlaybackPosition = GetPlaybackPosition() + (float)AudioServer.GetTimeSinceLastMix();
   _calibratedPlaybackPosition = ((_curPlaybackPosition + _audioCalibrationOffset) + (float)Stream.GetLength()) % (float)Stream.GetLength();
   _metDelta = _calibratedPlaybackPosition - _metDelta;
