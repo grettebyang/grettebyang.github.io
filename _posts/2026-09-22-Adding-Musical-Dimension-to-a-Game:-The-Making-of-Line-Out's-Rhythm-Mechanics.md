@@ -13,7 +13,7 @@ The music I wrote for Line Out I wanted to feel free and adventurous like if I w
 
 
 <video controls width="800">
-<source src="/_media/Lapland'sFikaDeliveryDogs.mp4" type="video/mp4">
+<source src="{{ '/_media/Lapland'sFikaDeliveryDogs.mp4' | relative_url }}" type="video/mp4">
 </video>
 
 
@@ -29,7 +29,7 @@ One track in particular has several time signature changes, so the soundtrack mu
 
 
 <video controls width="800">
-<source src="/_media/DankRoastMIDI.mp4" type="video/mp4">
+<source src="{{ '/_media/DankRoastMIDI.mp4' | relative_url }}" type="video/mp4">
 </video>
 
 
@@ -46,7 +46,7 @@ After getting my heart broken many times over by playtesters not getting the han
 
 
 <video controls width="800">
-<source src="/_media/InitialRhythmEvent.mp4" type="video/mp4">
+<source src="{{ '/_media/InitialRhythmEvent.mp4' | relative_url }}" type="video/mp4">
 </video>
 
 
@@ -70,7 +70,7 @@ I actually implemented two modes of calibration: one for audio latency, and one 
 
 
 <video controls width="800">
-<source src="/_media/RhythmCalibration.mp4" type="video/mp4">
+<source src="{{ '/_media/RhythmCalibration.mp4' | relative_url }}" type="video/mp4">
 </video>
 
 
