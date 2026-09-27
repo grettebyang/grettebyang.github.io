@@ -15,7 +15,7 @@ The music I wrote for Line Out I wanted to feel free and adventurous like if I w
 <video controls width="800">
 <source src="{{ "/_media/Lapland'sFikaDeliveryDogs.mp4" | relative_url }}" type="video/mp4">
 </video>
-<./div>
+</div>
 
 
 While still thinking of freedom and adventure, something I kept in mind while writing all the music was the idea of up and down, falling apart and back together again, tension and release, and also growth. Because even though the game is about chaos, it's also about working together with your team, and there will be times when you flow, and times when you tangle, and the longer you work together, the better you get at it. I wanted the different parts to represent the different players on the team. At times they may be doing completely different things, and other times will be in perfect harmony or dissonant harmony. The calls and responses and countermelodies are the players communicating and bouncing off one another in the game, just as musicians do when they play together. These ideas along with inspiration from Sonic, Splatoon, and Mario Kart, of course, is what shaped the soundtrack.
@@ -33,7 +33,7 @@ One track in particular has several time signature changes, so the soundtrack mu
 <video controls width="800">
 <source src="{{ '/_media/DankRoastMIDI.mp4' | relative_url }}" type="video/mp4">
 </video>
-<./div>
+</div>
 
 
 
@@ -51,7 +51,7 @@ After getting my heart broken many times over by playtesters not getting the han
 <video controls width="800">
 <source src="{{ '/_media/InitialRhythmEvent.mp4' | relative_url }}" type="video/mp4">
 </video>
-<./div>
+</div>
 
 
 In our tutorial level, we also have pre-placed billboards with textual explanations of the mechanics for players who wish to take the time to read them. Those who want to keep moving can choose to run straight past them. This way, there is no disruption or annoying tutorial popups that take away from the flow of the game. It is up to the player to decide if they want to learn the mechanics through simply playing or by reading explicitly how it works.
@@ -76,6 +76,6 @@ I actually implemented two modes of calibration: one for audio latency, and one 
 <video controls width="800">
 <source src="{{ '/_media/RhythmCalibration.mp4' | relative_url }}" type="video/mp4">
 </video>
-<./div>
+</div>
 
 Several questions did arise when designing the calibration feature: Should each player have individual calibration settings in the case that not everyone is using the same output device or to accommodate individual reaction times? Or should we simply take the average of all players calibrating at once? Or should only player one be responsible for calibration? The first option is the most attractive in terms of making the game accessible. However, the idea with the calibration is that in the game when the player hits the button on the visual cue, it lines up exactly when they would hit the button on the audio cue. Simply put, it is impossible to accommodate for all players a perfect calibration. That is why I decided to go with the option of having the calibration be the average of all the players who participate in the calibration. After all, it is a collaborative effort and the main idea behind the mechanic is for everyone to be in sync, so that must be honored. Even with calibration, being in sync takes some skill. Even with calibration, the latency of input feedback cannot be accounted for. Calibration does not solve every issue, so we must accept the reality of hardware device limitations and human inaccuracy.
