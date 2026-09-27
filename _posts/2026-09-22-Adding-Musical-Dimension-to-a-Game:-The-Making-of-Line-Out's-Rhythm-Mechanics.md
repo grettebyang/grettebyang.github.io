@@ -1,4 +1,4 @@
-### Making Line Out a rhythm game
+### Adding Musical Dimension to a Game: The Making of Line Out's Rhythm Mechanics
 
 I had a lot of fun implementing the rhythm mechanics in Line Out, and by "fun" I of course mean this both genuinely and in a sarcastic manner. My first time making a rhythm game was no picnic, and from what I've heard, I'm not alone in that camp. It took me several iterations and hours of reworking the code until I had a stable, well-functioning rhythm manager. The first iteration was done within 9 weeks, which was the amount of time the game was meant to be completed in, so at that time it was hardly stable.
 
