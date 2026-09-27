@@ -19,6 +19,9 @@ linkedin_username: "Grette Yang"
 #########################################################################################
 theme: "minima"
 
+include:
+  - _media
+
 rss: rss
 
 kramdown:
