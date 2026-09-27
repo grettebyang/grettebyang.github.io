@@ -12,7 +12,9 @@ Now, music in games has always been important to me, but there's something unexp
 The music I wrote for Line Out I wanted to feel free and adventurous like if I were a dog running through Swedish Lapland. The first track I wrote that I intended to put in a level reflected this vision the most. But upon showing the rest of the team, the feedback I received was that it should have higher tempo and more motion, like a Mario Kart level (Mario Kart being the main comparison title we used for reference throughout development). This song became the main theme because it still fits the idea, but for a level, the music needed to be piu mosso, fast and chaotic, like the game is. 
 
 
-https://github.com/user-attachments/assets/97814e2f-cd54-4e89-add8-f5984faf9965
+<video controls width="800">
+<source src="/_media/Lapland'sFikaDeliveryDogs.mp4" type="video/mp4">
+</video>
 
 
 While still thinking of freedom and adventure, something I kept in mind while writing all the music was the idea of up and down, falling apart and back together again, tension and release, and also growth. Because even though the game is about chaos, it's also about working together with your team, and there will be times when you flow, and times when you tangle, and the longer you work together, the better you get at it. I wanted the different parts to represent the different players on the team. At times they may be doing completely different things, and other times will be in perfect harmony or dissonant harmony. The calls and responses and countermelodies are the players communicating and bouncing off one another in the game, just as musicians do when they play together. These ideas along with inspiration from Sonic, Splatoon, and Mario Kart, of course, is what shaped the soundtrack.
@@ -26,7 +28,9 @@ In order for the rhythm manager to keep the beat, it needs information directly 
 One track in particular has several time signature changes, so the soundtrack must also have a list of these time signatures and how many bars each one lasts for. Implementing this was worth it for the flexibility and reusability, even if it is just one track for now.
 
 
-https://github.com/user-attachments/assets/a412c03e-06c7-4260-a77a-39b37d3aafae
+<video controls width="800">
+<source src="/_media/DankRoastMIDI.mp4" type="video/mp4">
+</video>
 
 
 
@@ -41,7 +45,9 @@ After getting my heart broken many times over by playtesters not getting the han
 
 
 
-https://github.com/user-attachments/assets/5553d25c-3841-4499-9d6c-a1ca0f574a61
+<video controls width="800">
+<source src="/_media/InitialRhythmEvent.mp4" type="video/mp4">
+</video>
 
 
 
@@ -63,7 +69,9 @@ Here's a clipping from the Soundtrack class which updates the playback position 
 I actually implemented two modes of calibration: one for audio latency, and one for video latency, to calibrate the visual cues as well. The calibration not only takes into account device latency, but also player reaction timing. Rhythm calibration settings are a must-have for any rhythm game.
 
 
-https://github.com/user-attachments/assets/2e7174b6-fab8-4487-9a49-2a573cb4bc88
+<video controls width="800">
+<source src="/_media/RhythmCalibration.mp4" type="video/mp4">
+</video>
 
 
 Several questions did arise when designing the calibration feature: Should each player have individual calibration settings in the case that not everyone is using the same output device or to accommodate individual reaction times? Or should we simply take the average of all players calibrating at once? Or should only player one be responsible for calibration? The first option is the most attractive in terms of making the game accessible. However, the idea with the calibration is that in the game when the player hits the button on the visual cue, it lines up exactly when they would hit the button on the audio cue. Simply put, it is impossible to accommodate for all players a perfect calibration. That is why I decided to go with the option of having the calibration be the average of all the players who participate in the calibration. After all, it is a collaborative effort and the main idea behind the mechanic is for everyone to be in sync, so that must be honored. Even with calibration, being in sync takes some skill. Even with calibration, the latency of input feedback cannot be accounted for. Calibration does not solve every issue, so we must accept the reality of hardware device limitations and human inaccuracy.
