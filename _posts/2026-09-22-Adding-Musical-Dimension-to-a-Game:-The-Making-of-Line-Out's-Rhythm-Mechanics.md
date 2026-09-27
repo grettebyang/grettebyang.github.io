@@ -12,7 +12,7 @@ Now, music in games has always been important to me, but there's something unexp
 The music I wrote for Line Out I wanted to feel free and adventurous like if I were a dog running through Swedish Lapland. The first track I wrote that I intended to put in a level reflected this vision the most. But upon showing the rest of the team, the feedback I received was that it should have higher tempo and more motion, like a Mario Kart level (Mario Kart being the main comparison title we used for reference throughout development). This song became the main theme because it still fits the idea, but for a level, the music needed to be piu mosso, fast and chaotic, like the game is. 
 
 
-<video controls width="800">
+<video controls width="700">
 <source src="{{ "/_media/Lapland'sFikaDeliveryDogs.mp4" | relative_url }}" type="video/mp4">
 </video>
 
@@ -30,7 +30,7 @@ One track in particular has several time signature changes, so the soundtrack mu
 
 
 
-<video controls width="800">
+<video controls width="700">
 <source src="{{ '/_media/DankRoastMIDI.mp4' | relative_url }}" type="video/mp4">
 </video>
 
@@ -48,7 +48,7 @@ After getting my heart broken many times over by playtesters not getting the han
 
 
 
-<video controls width="800">
+<video controls width="700">
 <source src="{{ '/_media/InitialRhythmEvent.mp4' | relative_url }}" type="video/mp4">
 </video>
 
@@ -73,7 +73,7 @@ I actually implemented two modes of calibration: one for audio latency, and one 
 
 
 
-<video controls width="800">
+<video controls width="700">
 <source src="{{ '/_media/RhythmCalibration.mp4' | relative_url }}" type="video/mp4">
 </video>
 
